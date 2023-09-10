@@ -26,7 +26,8 @@ int main() {
    
     // student s1;
     //calling member function to input data into object s1
-    s1.getdata();
+    int y=s1.getdata();
+    cout<<y;
     /* calling member function to display data from object s1 */
     s1.showdata();
     return 0;
