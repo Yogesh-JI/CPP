@@ -22,7 +22,7 @@ int main() {
     std::cin >> bookPrice;
     std::cin >> availabilityStatus;
 
-    // Validate availability status (should be 'Y' or 'y' or 'N' or 'n')
+    // Validate availability status (should be 'Y' or 'y' , 'N' or 'n')
     if (availabilityStatus != 'Y' && availabilityStatus != 'y' &&
         availabilityStatus != 'N' && availabilityStatus != 'n') {
         std::cout << "No" << std::endl;
